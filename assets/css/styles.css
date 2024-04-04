@@ -1,0 +1,388 @@
+html,
+body {
+    font-family: 'HelveticaNeue';
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a,
+button,
+input,
+textarea,
+.navbar-toggler,
+.btn,
+.form-control,
+.input-group .input-group-text,
+.input-group .form-control,
+.input-group .btn {
+    border-radius: 0;
+}
+
+main.wrapper>section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+input::placeholder,
+textarea::placeholder,
+.form-control::placeholder {
+    color: inherit;
+    opacity: .5;
+}
+
+.bg-light {
+    background-color: #f4f4f4 !important;
+}
+
+.text-bg-dark {
+    background-color: #565656 !important;
+    color: #f4f4f4 !important;
+}
+
+html,
+body,
+.card,
+.text-dark {
+    color: #565656 !important;
+}
+
+.btn-outline-dark {
+    color: #565656 !important;
+    border-color: #565656 !important;
+    background-color: transparent !important;
+}
+
+.btn-outline-dark:hover,
+.btn-outline-dark.active {
+    color: #ffffff !important;
+    border-color: #565656 !important;
+    background-color: #565656 !important;
+}
+
+.text-bg-dark {
+    color: #ffffff !important;
+    border-color: #565656 !important;
+    background-color: #565656 !important;
+}
+
+@media (max-width: 575.98px) {
+    .container {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+}
+
+.card-list a .card {
+    background-color: #f4f4f4;
+    transition: .36s;
+}
+
+.card-list a:hover .card {
+    background-color: #e4e4e4;
+}
+
+main.wrapper .btn {
+    min-width: 210px;
+}
+
+.breadcrumb .breadcrumb-item.active a {
+    color: inherit;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+
+/* style sectition banner */
+
+#banner {
+    background-color: #e5e5e5;
+}
+
+.text-red {
+    color: #ff0000;
+}
+
+#banner h4 {
+    font-size: 2.52rem;
+    margin-bottom: 0;
+}
+
+#banner h5 {
+    font-size: 2.25rem;
+}
+
+#banner p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+
+@media (min-width: 1400px) {
+    #banner h4 {
+        font-size: 4.525rem;
+        margin-bottom: 0;
+    }
+
+    #banner h5 {
+        font-size: 3.1rem;
+    }
+
+    #banner p {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+}
+
+#banner {
+    background-color: #e5e5e5;
+}
+
+/* end sectition banner */
+
+.text-red {
+    color: #ff0000;
+}
+
+#benefit h4 {
+    font-size: 2.52rem;
+    margin-bottom: 0;
+}
+
+#benefit h5 {
+    font-size: 2.25rem;
+}
+
+#benefit p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+
+
+
+@media (min-width: 1400px) {
+    #benefit h4 {
+        font-size: 3.52rem;
+        margin-bottom: 0;
+    }
+
+    #benefit h5 {
+        font-size: 3.1rem;
+    }
+
+    #benefit p {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+    }
+}
+
+/* end sectition benefit */
+
+#company h4 {
+    font-size: 1.75rem;
+    margin-bottom: 0;
+}
+
+#company h5 {
+    font-size: 1.55rem;
+}
+
+#company p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+#company ul li{
+    font-size: 1.2rem;;
+}
+
+#company .kantor img {
+    left: -100px !important;
+    top: 50% !important;
+    transform: translate(0, -50%);
+    width: 35%;
+}
+#company .kantor-kanan img {
+    right: -80px !important;
+    top: 50% !important;
+    transform: translate(0, -50%);
+    max-width: 35%;
+}
+
+
+
+
+@media (min-width: 1400px) {
+
+    #company .kantor img {
+        left: -100px !important;
+        top: 60% !important;
+        transform: translate(0, -50%);
+        max-width: 38%;
+    }
+    #company .kantor-kanan img {
+        right: -80px !important;
+        top: 50% !important;
+        transform: translate(0, -50%);
+        max-width: 38%;
+    }
+
+    #company h4 {
+        font-size: 3.52rem;
+        margin-bottom: 0;
+    }
+
+    #company h5 {
+        font-size: 3.1rem;
+    }
+
+    #company p {
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        margin-left: 6rem;
+    }
+
+    #company a{
+        margin-left: 6rem;
+    }
+
+    #company ul li{
+        font-size: 1.2rem;;
+    }
+
+    #company .about {
+        margin-left: 6rem;
+    }
+
+}
+
+/* end sectition company */
+
+
+#ourvision {
+    background: rgb(229, 229, 229);
+    background: linear-gradient(100deg, rgba(229, 229, 229, 1) 27%, rgba(255, 255, 255, 1) 62%);
+}
+
+#ourvision h4 {
+    font-size: 2.52rem;
+    margin-bottom: 0;
+}
+
+#ourvision h5 {
+    font-size: 2.25rem;
+}
+
+#ourvision p {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+
+@media (min-width: 1400px) {
+    #ourvision h4 {
+        font-size: 3.52rem;
+        margin-bottom: 0;
+    }
+
+    #ourvision h5 {
+        font-size: 3.1rem;
+    }
+
+    #ourvision p {
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+}
+
+#ourvision img {
+    max-width: 65%;
+}
+
+#ourvision .automate img {
+    max-width: 65%;
+}
+
+#ourvision .cs img {
+    max-width: 65%;
+}
+
+#ourvision .logokiri img {
+    position: absolute;
+    z-index: 6;
+    left: 0;
+    width: 6%;
+    bottom: 0;
+}
+
+#ourvision .logokanan img {
+    position: absolute;
+    z-index: 6;
+    right: 0;
+    width: 8%;
+    bottom: 0;
+
+}
+
+@media (min-width: 1200px) {
+    #company {
+        margin-bottom: 5rem;
+    }
+
+    #company .kantor img {
+        max-width: 30%;
+        top: 50% !important;
+    }
+
+    #company .kantor-kanan img {
+        max-width: 30%;
+        top: 50% !important;
+        right: -50px !important;
+
+    }
+
+    #ourvision {
+        margin-top:6rem;
+        margin-bottom: 6rem;
+    }
+
+    #ourvision img {
+        max-width: 115%;
+    }
+
+    #ourvision .mission img {
+        max-width: 115%;
+    }
+
+    #ourvision .cs img {
+        max-width: 100%;
+    }
+
+    #ourvision .vision img {
+        max-width: 100%;
+    }
+
+    #ourvision .vision {
+        position: absolute;
+        bottom: -58px;
+    }
+
+    #ourvision .mission {
+        position: absolute;
+        bottom: -5%;
+    }
+
+    #ourvision .cs {
+        position: absolute;
+        bottom: -12%;
+    }
+}
+
+
+/* ABOUT US */
+
+
+/* END ABOUT US */
